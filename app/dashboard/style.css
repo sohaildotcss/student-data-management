@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-color: #1d1d1f;
+  --white-color: #fbfbfb;
+  --test: #f1f5f9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: linear-gradient(45deg, #dce6e7, #e1ecc8);
+  animation: gradient 5s ease infinite;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes gradient {
+  0% {
+    background-color: #dce6e7;
+  }
+  50% {
+    background-color: #e1ecc8;
+  }
+  100% {
+    background-color: #dce6e7;
+  }
+}
+
+/* For Chrome, Safari, and Opera */
+
+/* Set the width and color of the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Set the appearance and color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 20px;
+}
+
+/* Set the color on hover for the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 60px;
+}
+
+.navbar {
+  backdrop-filter: saturate(180%) blur(5px);
+  background: hsla(0, 0%, 100%, 0.8);
+}
