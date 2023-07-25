@@ -3,8 +3,7 @@ import React from "react";
 import logo from "../images/logo.png";
 import Image from "next/image";
 import "./style.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FontAwesomeIconProps } from "@fortawesome/react-fontawesome";
+
 import instagram from "../images/insta.svg";
 
 function Home() {
@@ -449,10 +448,7 @@ function Home() {
           {/* <div className="links"></div> */}
         </footer>
       </div>
-      <script
-        src="https://kit.fontawesome.com/bd7b29eeb6.js"
-        crossorigin="anonymous"
-      ></script>
+
     </body>
   );
 }
