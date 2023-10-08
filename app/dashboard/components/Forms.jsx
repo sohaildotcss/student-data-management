@@ -17,7 +17,7 @@ function Forms() {
           <div className="form-header ">
             <h1
               id="student-details"
-              className="mb-6 bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-2xl font-bold text-transparent underline"
+              className="mb-6 mt-12 bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-2xl font-bold text-transparent underline underline-offset-8"
             >
               Student details
             </h1>
@@ -237,7 +237,7 @@ function Forms() {
                 type="text"
                 wrap="soft"
                 placeholder="Good / Bad"
-                className="block w-full  rounded-md border border-slate-300 py-2 pl-2 pr-3 shadow-sm placeholder:text-slate-400 placeholder:opacity-0 placeholder:transition-all placeholder:hover:opacity-100 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
+                className="block w-full rounded-md border border-slate-300 py-2 pl-2 pr-3 shadow-sm placeholder:text-slate-400 placeholder:opacity-0 placeholder:transition-all placeholder:hover:opacity-100 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
               ></textarea>
 
               <label htmlFor="sem-1">Semester 1:-</label>
@@ -390,7 +390,7 @@ function Forms() {
           <button
             type="submit"
             name="submit"
-            className="rounded-md  border-2 bg-pink-500 p-2 font-semibold tracking-wider text-slate-200 duration-300 ease-in-out hover:border-2 hover:border-pink-500 hover:bg-white hover:text-black  hover:transition "
+            className="rounded-md border-2 text-lg bg-pink-500 p-2 font-semibold tracking-wider text-white px-8 duration-300 ease-in-out hover:border-2 hover:border-pink-500 hover:bg-white hover:text-black  hover:transition "
           >
             SUBMIT
           </button>

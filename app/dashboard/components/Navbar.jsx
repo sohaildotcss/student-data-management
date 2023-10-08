@@ -2,15 +2,11 @@ import "../style.css";
 import Image from "next/image";
 import logo from "/public/images/logo.png";
 
-
 function Navbar() {
   return (
-    <div className="navbar sticky left-1/3 top-0 flex h-[70px] w-[620px] justify-center gap-8 rounded-lg rounded-t-none shadow-md">
+    <div className="navbar fixed left-1/3 top-0 mt-3 flex h-[70px] w-[620px] justify-center gap-8 rounded-lg shadow-md">
       <div className="logo flex items-center">
-        <Image className="h-10 w-auto" src={logo} alt="RU" />
-        <h1 className="ml-2 text-lg font-bold text-red-500">
-          <a href=""></a> RUCE
-        </h1>
+        <Image className="h-14 w-auto" src={logo} alt="RU" />
       </div>
       <div className="content  flex items-center gap-5 font-semibold">
         <a
