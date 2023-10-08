@@ -9,8 +9,8 @@ const checkAuth = () => {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
   if (username === "1" && password === "1") {
-    // window.open("https://heliums.netlify.app/dashboard");
-    return <Link href="/dashboard"></Link>;
+    window.open("https://heliums.netlify.app/dashboard");
+    // return <Link href="/dashboard"></Link>;
     // return true;
   } else {
     alert("Invalid username or password. Please try again.");
