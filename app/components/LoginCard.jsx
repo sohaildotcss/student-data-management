@@ -9,13 +9,17 @@ const checkAuth = () => {
   const username = document.getElementById('username').value;
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
-  if (username && !username === '') {
-    if (email === 'test' && password === 'test123') {
-      window.open('https://heliums.netlify.app/dashboard');
-      // return <Link href="/dashboard"></Link>;
-      // return true;
+  if (username && !username == '') {
+    if (email && password) {
+      if (email === 'test' && password === 'test123') {
+        window.open('https://heliums.netlify.app/dashboard');
+        // return <Link href="/dashboard"></Link>;
+        // return true;
+      } else {
+        alert('Invalid username or password. Please try again.');
+      }
     } else {
-      alert('Invalid username or password. Please try again.');
+      alert('Please enter Email and Password');
     }
   } else {
     alert('Please Enter your name.');
