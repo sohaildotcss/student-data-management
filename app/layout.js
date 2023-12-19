@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Salesforce",
+  title: "RUCE",
   description: "Cloud Based Student Data Management with Salesforce",
 };
 
